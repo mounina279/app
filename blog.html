@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+header {
+    background-color: #ffd700;
+    color: black;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+h2{
+    color: #ffd700;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#blog {
+    max-width: 800px;
+    margin: 20px auto;
+}
+#blog img{
+    width: 30%;
+    height: 30%;
+}
+
+article {
+    border: 1px solid #ffd700;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+h2 {
+    color: coral;
+}
+
+.meta {
+    color: #666;
+    font-size: 0.8em;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.read-more {
+    color: coral;
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+}
+
+#comment-form {
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+#comment-form form {
+    display: grid;
+    gap: 10px;
+}
+
+#comment-form label {
+    font-weight: bold;
+}
+
+#comment-form textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+footer {
+    background-color: #ffd700;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 10%;
+}
+footer p{
+    color: black;
+}
+.button{
+    display: inline-block;
+    border-radius: 5rem;
+    background-color: var(--noir);
+    padding: 1.3rem 5rem;
+    color: var(--blanche);
+    font-weight: 600;
+    box-shadow: 0 1rem 1.5rem black;
+    margin-top: 4rem;
+}
+.button {
+    text-decoration: none;
+    
+    
+    
+}
+article {
+    color: white;
+}
+span{
+    color: white;
+}
+p{
+    color: white;
+}
+label{
+    color: white;
+}
+    </style>
+    <title>Blog de Pierres Précieuses</title>
+</head>
+<body>
+
+    <header>
+        <h1>Blog de Pierres Précieuses</h1>
+        
+    </header>
+
+    <section id="blog">
+        <article>
+            <img src="img/4c31f2fa-3c63-41e2-81b6-971ff84c2ac3.jpeg" alt="">
+            <h2>Grenat: une Pierre en beauté</h2>
+            <p class="meta">Par <span class="author">John Doe</span> le <span class="date">20 Février 2024</span></p>
+            <p>Les grenats sont parmi les pierres précieuses les plus prisées, particulièrement connues pour leur magnifique couleur. Découvrez la signification et l'histoire fascinante des grenats.</p>
+            <a href="#" class="read-more">Lire la suite</a>
+        </article>
+
+        <article>
+            <img src="img/cc2.PNG" alt="Diamant">
+            <h2>Choisir le Diamant Parfait</h2>
+            <p class="meta">Par <span class="author">Jane Smith</span> le <span class="date">15 Février 2024</span></p>
+            <p>Guide complet sur la façon de choisir le diamant parfait pour une bague de fiançailles. Apprenez les 4C - Coupe, Couleur, Carat et Clarté.</p>
+            <a href="#" class="read-more">Lire la suite</a>
+        </article>
+    </section>
+
+    <section id="comment-form">
+        <h2>Ajouter un commentaire</h2>
+        <form action="#" method="post">
+            <label for="name">Nom :</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="comment">Commentaire :</label>
+            <textarea id="comment" name="comment" rows="4" required></textarea>
+
+            <button type="submit">Soumettre</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Blog de Pierres Précieuses. Tous droits réservés.</p>
+    </footer>
+
+</body>
+</html>
